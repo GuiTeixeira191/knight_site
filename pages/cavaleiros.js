@@ -1,8 +1,11 @@
 import React from "react";
+import Body from "../components/Card/Body";
 
 const Cavaleiros = () => {
     return (
-        <h1>Cavaleiros</h1>
+        <>
+        <Body/>
+        </>
     )
 }
 
