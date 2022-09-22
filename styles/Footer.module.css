@@ -1,0 +1,24 @@
+
+.footer_container {
+    background-color: black;
+}
+
+.foot, .small {
+    color: white;
+    display: flex;
+    justify-content: center ;
+    margin-bottom: 10px;
+}
+
+.media {
+    text-align: center;
+}
+
+.media_tag {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.a {
+    padding: 5px;
+}

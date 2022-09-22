@@ -1,3 +1,13 @@
 .title {
     color: blue;
 }
+
+.mu {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.a {
+    border: 10px solid white;
+    text-align: center;
+}

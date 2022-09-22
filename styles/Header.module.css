@@ -1,0 +1,35 @@
+
+.head {
+    color: brown;
+}
+
+.image {
+    align-items: center;
+}
+
+.image_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.li {
+    padding: 10px;
+}
+
+.a {
+    font-size: 1.8rem;
+    color: white;
+}
+
+.a:hover {
+    font-size: 1.9rem;
+    color: #cccccc;
+}

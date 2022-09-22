@@ -1,15 +1,37 @@
 import React from "react";
-import styles from "./Header.module.css"
+import styles from "../../styles/Header.module.css"
+import Link from 'next/link'
 
-const Header = () => {
+const Head = () => {
     return (
-        <div className={styles.head_container}>
-            <div className="head_img">
-                <img src="/logo.png" alt="Cavaleiros do Zodíaco" />
+        <div>
+            <div className={styles.image_container}>
+                <img className={styles.image} src="/logo.png" alt="Cavaleiros do Zodíaco" />
             </div>
-            <h1 className={styles.title}>Olá Mundo</h1> 
+            <div className={styles.nav}>
+                <li className={styles.li}>
+                    <Link href="/">
+                        <a className={styles.a}>Home</a>
+                    </Link>
+                </li>
+                <li className={styles.li}>
+                    <Link href="/cavaleiros">
+                        <a className={styles.a}>Cavaleiros</a>
+                    </Link>
+                </li>
+                <li className={styles.li}>
+                    <Link href="/news">
+                        <a className={styles.a}>Notícias</a>
+                    </Link>
+                </li>
+                <li className={styles.li}>
+                    <Link href="/aboutus">
+                        <a className={styles.a}>Sobre Nós</a>
+                    </Link>
+                </li>
+            </div>
         </div>
     )
 }
 
-export default Header
+export default Head
