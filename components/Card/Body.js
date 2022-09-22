@@ -20,7 +20,7 @@ const Body = () => {
                 />
                 <Card
                     image= '/Mascara_da_morte.jpg'
-                    title= 'Mascara da Morte de Câncer'
+                    title= 'Máscara da Morte de Câncer'
                 />
             </div>
 
@@ -62,8 +62,6 @@ const Body = () => {
                 />
             </div>
         </div>
-
-
     )
 }
 

@@ -1,11 +1,6 @@
-.body_cards {
-    display: flex;
-    align-items: center;
-    text-align: center;
-}
+
 
 .card {
-    align-items: center;
     width: 250px;
     height: 330px;
     margin: 10px 20px;
