@@ -1,0 +1,35 @@
+.head_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 50px;
+}
+
+.head {
+    text-align: left;
+    width: 50%;
+    margin: 50px;
+    font-size: 1.2rem;
+    line-height: 35px;
+    
+}
+
+.head h1 {
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding: 10px;
+}
+
+.img {
+    width: 30%;
+    height: 350px;
+    float: right;
+    
+}
+
+.h2 {
+    font-size: 2.5rem;
+    margin-left: 500px;
+    margin-bottom: 80px;
+    
+}

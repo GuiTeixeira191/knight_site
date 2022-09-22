@@ -1,15 +1,17 @@
 import React from "react";
 import Card from "./Card";
 import styles from '../../styles/Body.module.css'
+import Link from "next/link";
 
 const Body = () => {
     return (
         <div className={styles.body_cards}>
-           <div className={styles.card}> 
-                <Card
-                    image= '/mu.jpg'
-                    title= 'Mu de Áries'
-                />
+            <div className={styles.card}> 
+                <Link href='/Cavaleiros/Mu_de_Aries'>
+                    <a>
+                    <Card image= '/mu.jpg' title= 'Mu de Áries'/>
+                    </a>
+                </Link>
                 <Card
                     image= '/aldebaran.jpg'
                     title= 'Aldebaran de Touro'
