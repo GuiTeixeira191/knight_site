@@ -45,8 +45,6 @@ const Mu = () => {
             </div>
             <img className={styles.img} src="/Revolu3Fo_Estelar.webp" alt="Mu de Áries" />
         </div >
-
-
         </>
     )
 }

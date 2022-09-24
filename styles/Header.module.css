@@ -1,3 +1,28 @@
+.nav_container {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.mini_logo {
+    width: 150px;
+}
 
 .head {
     color: brown;
@@ -5,6 +30,60 @@
 
 .image {
     align-items: center;
+    margin-bottom: 30px;
+}
+
+.btn_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    float: right;
+}
+
+.login_btn {
+    padding: 8px;
+    font-size: 1.5rem;
+    background-color: rgb(69, 111, 167);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.create_btn {
+    padding: 8px;
+    margin-left: 5px;
+    font-size: 1.5rem;
+    background-color: rgb(69, 111, 167);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.menu_hamburguer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    display: none;
+    cursor: pointer;
+}
+
+@media (max-width: 1030px) {
+    .menu_hamburguer {
+        display: block;
+    }
+    .nav {
+        display: none;
+    }
+    .btn_container {
+        display: none;
+    }
+}
+
+@media (max-width: 950px) {
+    .image {
+        width: 90%;
+    }
 }
 
 .image_container {
@@ -13,12 +92,7 @@
     align-items: center;
 }
 
-.nav {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-}
+
 
 .li {
     padding: 10px;
